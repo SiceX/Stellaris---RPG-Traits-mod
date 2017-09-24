@@ -41,6 +41,7 @@ event = {
 					# no traits gained
 				}
 			}
+			country_event = { id = trait_regulation.212 }
 		}
 		every_country  = { # hive minds cannot get conformism
 			limit = {
@@ -84,6 +85,7 @@ event = {
 					# no traits gained
 				}
 			}
+			country_event = { id = trait_regulation.212 }
 		}
 		every_country = {	# not everyone should get airborne
 			limit = {
@@ -122,6 +124,7 @@ event = {
 					# no trait gained, still a chance that they might be an ostrich
 				}
 			}
+			country_event = { id = trait_regulation.212 }
 		}
 		every_country = {
 			limit = {
@@ -428,6 +431,7 @@ event = {
 					# no traits gained
 				}
 			}
+			country_event = { id = trait_regulation.212 }
 		}
 		every_country = {
 			limit = {
@@ -669,6 +673,7 @@ event = {
 					# no traits gained
 				}
 			}
+			country_event = { id = trait_regulation.212 }
 		}
 	}
 }
@@ -2949,11 +2954,34 @@ country_event = {
 
 
 
+#####################################
+# Empire owner setting country events
+#####################################
 
 
 
-
-
+country_event = {
+	id = trait_regulation.212			#
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		random_owned_pop = {
+			limit = {
+				NOR = {
+					has_trait = trait_mechanical
+					has_trait = trait_presentient_proles
+					has_trait = trait_presentient_starborn
+					has_trait = trait_presentient_earthbound
+					has_trait = trait_presentient_natural_intellectuals
+					has_trait = trait_presentient_brutes
+					has_trait = trait_presentient_conservative
+					has_trait = trait_presentient_irradiated
+				}
+			}
+			root = { change_dominant_species = prev }
+		}
+	}
+}
 
 
 
