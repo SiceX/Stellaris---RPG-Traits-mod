@@ -1,7 +1,7 @@
 # Stellaris---RPG-Traits-mod
 Stellaris mod: RPG Traits
 
-The official Role Playing Traits overhaul for Stellaris. Tired of bland, boring species? Tired of having a dozen races that all feel and play exactly the same? Use RPG Traits! It will give you *alien* aliens. Aliens that are big, small, that eat dirt, that are made out of electricity, that breed like insects, that are vastly superior or inferior to humans in some way. All of it implemented in a way that your gameplay feels different.
+The official Role Playing Traits overhaul for Stellaris, directly forked from the founder LuxArdens. Tired of bland, boring species? Tired of having a dozen races that all feel and play exactly the same? Use RPG Traits! It will give you *alien* aliens. Aliens that are big, small, that eat dirt, that are made out of electricity, that breed like insects, that are vastly superior or inferior to humans in some way. All of it implemented in a way that your gameplay feels different.
 
 Want to play as a race of Retarded, Immortal, Titanic, Steel-Skinned Snails? Now you can! Or a race of Genius, Lithovore, tunnel-digging insects? Go ahead! How about playing as one giant Living Planet? Sure thing! It's all possible with RPG traits.
 
